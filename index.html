@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon" href="./assets/Images/briefcase.png">
+    <link rel="stylesheet" href="./styles/modern-normalize.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/utilities.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="container">
+            <nav class="mobile_header">
+                <ul class="m_header__nav-ul">
+                    <li class="m_header__nav-li">
+                        <a class="m_header__link" href="#about">About</a>
+                    </li>
+                    <li class="m_header__nav-li">
+                        <a class="m_header__link" href="#projects">Work</a>
+                    </li>
+                    <li class="m_header__nav-li">
+                        <a class="m_header__link"
+                        href="#contact">Contact</a>
+                    </li>
+                    
+                    <li class="m_header__nav-li">
+                        <div class="m_seperator"></div>
+                    </li>
+                    <li class="m_header__nav-li">
+                        <a href="https://mohammedghayaz.github.io/Capstone-Project-1/">
+                            <button class="btn m_btn">Resume</button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="header">
+                <ul class="header__nav-ul">
+                    <li id="home" class="header__nav-li">
+                    </li>
+                    <li class="header__nav-li">
+                        <a class="header__link" href="#about">About</a>
+                    </li>
+                    <li class="header__nav-li">
+                        <a class="header__link" href="#projects">Work</a>
+                    </li>
+                    <li class="header__nav-li">
+                        <a class="header__link"
+                        href="#contact">Contact</a>
+                    </li>
+                    
+                    <li class="header__nav-li">
+                        <div class="seperator"></div>
+                    </li>
+                    <li class="header__nav-li">
+                        <a href="https://mohammedghayaz.github.io/Capstone-Project-1/">
+                            <button class="btn">Resume</button>
+                        </a>
+                    </li>
+                </ul>
+                <button class="header__menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                </button>
+          
+    </header>
+    <main>
+        <section class="container section">
+            <div class="hero">
+                <img src="./assets/Images/Profile.jpg" alt="Profile-Img">
+                <h2> Hi, I'm Ghayaz</h2>
+                <h1> Full Stack <br> Web Developer</h1>
+                <p>
+                    A passionate 
+                    <strong class="strong">Frontend / Fullstack-Jamstack </strong> 
+                    web developer and 
+                    <strong class="strong"> UI/UX enthusiast </strong>
+                     specialized in building stunning pixel-perfect interactive websites/applications.
+                </p>
+                <a href="#">
+                    <button class="btn br-btn"> Reach out</button>
+                </a>
+            </div>
+        </section>
+        <section id="about" class="container section">
+            <div class="about">
+                <div class="about__container">
+                <h2 class="about__title">About</h2>
+                <p class="about__desc">Hey there! I'm Ghayaz, a passionate <strong class="strong"> Fullstack </strong> web developer based in the vibrant city of <strong class="strong">  Bangalore, Karnataka, India. </strong>I start my day fueled by a good cup of chai, ready to dive into the world of web development. </p>
+                
+                <p class="about__desc">Currently, I'm on an exciting journey, honing my skills through a comprehensive <strong class="strong">Fullstack web development bootcamp </strong>on Udemy. I thrive on learning new things and building innovative projects that come to life on the web.
+                </p>
+                <hr/>
+                <h2 class="about__title">Skills</h2>
+                <div class="about__ul-box">
+                    <ul class="about__ul">
+                        <li class="about__li"> &#128073; <span> Html</span></li>
+                        <li class="about__li"> &#128073; <span> CSS</span></li>
+                        <li class="about__li"> &#128073; <span> Bootstrap</span></li>
+                        <li class="about__li"> &#128073; <span> Javascript</span></li>
+                    </ul>
+                    <ul class="about__ul">
+                        <li class="about__li"> &#128073; <span> Git</span></li>
+                        <li class="about__li"> &#128073; <span> Github</span></li>
+                        <li class="about__li"> &#128073; <span> Ui / Ux Design</span> </li>
+                        <li class="about__li"> &#128073; <span> SQL </span>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+                <div class="about__image">
+                    <img src="./assets/Images/Owner-Pitcure.jpg" alt="Owner-Pitcure">
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="container section">
+                <div class="flex-container">
+
+                    <h1 class="project__title">Projects</h1>
+                    <div class="grid-container">
+                        <div class="items">
+                            <img class="project__s-image" src="./assets/Images/e-commerce-img.png" alt="e-commerce-image">
+                        </div>
+                        <div class="items project__desc">
+                            <h3 class="project__s-title"> Ecommerce-For-Electronic-Gadgets </h3>
+                            <p class="project__p">"Discover cutting-edge tech shopping with 'Ecommerce for Gadgets'! Browse and buy top electronics. Join us in shaping digital retail!"</p>
+                            <a href="#"><button class="btn">Website</button></a>
+                        </div>
+                        <div class="items project__desc"> <h3 class="project__s-title"> Tindog-Project</h3>
+                            <p class="project__p">
+                                Tindog is a fun app that provides dog lovers with the fastest, easiest way to meet other pet parents and their dog counterparts.
+                            </p>
+                            <a href="https://mohammedghayaz.github.io/Tindog-Project/" target="_blank" >
+                                <button class="btn">Website</button>
+                            </a>
+                        </div>
+                        <div class="items"><img class="project__s-image" src="./assets/Images/TinDog.png" alt="TinDog-image"></div>
+                        <div class="items"> <img src="./assets/Images/movewithjoy.png" alt="movewithjoy-image" class="project__s-image">
+                             </div>
+                             <div class="items project__desc"> <h3 class="project__s-title"> Move-With-Joy</h3>
+                                <p class="project__p">
+                                "Move-With-Joy: Elevate fitness with tech, joy, and social connection. Tailored workouts for a healthier, happier you. Join the movement today!"
+                                </p>
+                                <a href="https://mohammedghayaz.github.io/Move-with-joy/" target="_blank" >
+                                    <button class="btn">Website</button>
+                                </a>
+                            </div>
+                             <div class="items project__desc"> <h3 class="project__s-title"> Mondrian-Project</h3>
+                                <p class="project__p">
+                                    "Mondrian Project: Art meets tech in a captivating fusion. Explore the iconic style through interactive innovation. Immerse in a modern masterpiece."
+                                </p>
+                                <a href="https://mohammedghayaz.github.io/Mondrian-Project/" target="_blank" >
+                                    <button class="btn">Website</button>
+                                </a>
+                            </div>
+                            <div class="items"> <img src="./assets/Images/mondrian.png" alt="mondrian-image" class="project__s-image">
+                            </div>
+                    </div>
+                </div>
+            
+        </section>
+        <section id="contact" class="container section">
+            <div class="contact__container">
+                <h1 class="contact__title">Get in Contact</h1>
+              <p class="contact__desc"> 
+                Whether you're embarking on a new project, have business-related inquiries, or simply want to drop a friendly "hello," my virtual door is wide open. Don't hesitate to reach out, and I'll make it a priority to respond promptly. Looking forward to connecting with you!</p>
+               <a href="mailto:mohammedeyaad@gmail.com" target="_blank"> <button class="btn contact__btn"> Reach Out </button> </a>
+            </div>
+        </section>
+    </main>
+    <footer class="container section">
+        
+    <div class="footer">
+        <p> &tilde; MOHAMMED GHAYAZ SHARIEFF &tilde;</p>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

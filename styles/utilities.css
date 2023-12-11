@@ -1,0 +1,37 @@
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: -.05em;
+    background-color: var(--clr-btn);
+    color: var(--clr-slate-200);
+    cursor: pointer;
+    padding: .5em 1em;
+    border-radius: 6px;
+    box-shadow: 0 14px 28px #3a58eb40,0 10px 10px #279fd238,0 0 120px -10px rgb(22, 28, 195);
+    transition: transform .5s,box-shadow .5s;
+    border:none
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 2px 20px #24a4fa80,0 6px 6px #a3c7de80,0 0 50px rgb(162, 162, 196),0px -7px 80px rgb(162, 162, 196);
+    
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem
+}
+
+.section {
+    margin-top: 5rem
+}
+.strong{
+    color: var(--clr-btn);
+}
+
