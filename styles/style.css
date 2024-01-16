@@ -425,13 +425,10 @@ body::-webkit-scrollbar-thumb {
 .project__s-image 
 {
     height: 58vh;
-    filter: blur(2px);
-    transition: all .3s ease;
+ 
     
 }
-.project__s-image:hover{
-    filter: blur(0px);
-}
+
 
 
 
